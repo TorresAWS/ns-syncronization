@@ -71,7 +71,7 @@ bash start.sh  # the validation will never be completed
 ```
 
 You should see that the certificate is never validated, taking more than hours. 
-![My image](img/sync-ns-img1.png)
+![My image](sync-ns-img1.png)
 {:.image-caption}
 *Screenshot of the certificate deployment before DNS synchronization*
 
@@ -100,7 +100,7 @@ bash start.sh
 cd vpcs/certs ; bash start.sh  
 ```
 
-![My image](img/sync-ns-img2.png)
+![My image](sync-ns-img2.png)
 {:.image-caption}
 *Screenshot of the certificate deployment after DNS synchronization*
 
