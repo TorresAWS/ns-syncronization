@@ -79,12 +79,12 @@ The reson for this problem is that AWS assigns a random set of DNS to newly crea
 
 
 If you take a look at the DNS certificates listed on the HZ
-![My image](../../img/sync-ns-img3.png)
+![My image](sync-ns-img3.png)
 {:.image-caption}
 *DNS listed on the Hosted Zone*
 
 and compare those with the DNS certificates listed on the domain, you will see they dont match.
-![My image](../../img/sync-ns-img4.png)
+![My image](sync-ns-img4.png)
 {:.image-caption}
 *DNS listed on the Domain*
 
