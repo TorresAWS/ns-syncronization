@@ -1,5 +1,4 @@
 locals {
-   aws_s3_bucket_bucket                    = "tfstate03212025"  # this name should be unique
    aws_s3_bucket_lifecycle_prevent_destroy = true
    aws_dynamodb_table_billing_mode         = "PAY_PER_REQUEST" 
    aws_dynamodb_table_hash_key             = "LockID" 

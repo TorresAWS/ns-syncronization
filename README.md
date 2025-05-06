@@ -38,7 +38,7 @@ Now I will start Terraform's backend. I will update the names in the backend to 
 
 ```
 cd global/tf-state/
-vbackendname.tf     # make sure you update the bucket and dynamodb names
+vi backendname.tf     # make sure you update the bucket and dynamodb names
 bash start.sh    # at this point the backend is setup
 ```
 
