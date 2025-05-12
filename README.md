@@ -71,7 +71,6 @@ bash start.sh  # the validation will never be completed
 
 You should see that the certificate is never validated, taking more than hours. 
 ![My image](../../img/sync-ns-img1.png)
-{:.image-caption}
 *Screenshot of the certificate deployment before DNS synchronization*
 
 The reason for this problem is that AWS assigns a random set of DNS to newly created Hosted Zones, not necessarily corresponding to those listed under the domain configuration.
@@ -79,12 +78,10 @@ The reason for this problem is that AWS assigns a random set of DNS to newly cre
 
 If you take a look at the DNS certificates listed on the HZ
 ![My image](../../img/sync-ns-img3.png)
-{:.image-caption}
 *DNS listed on the Hosted Zone*
 
 And compare those with the DNS certificates listed on the domain, you will see they don't match.
 ![My image](../../img/sync-ns-img4.png)
-{:.image-caption}
 *DNS listed on the Domain*
 
 
@@ -100,7 +97,6 @@ cd vpcs/certs ; bash start.sh
 ```
 
 ![My image](../../img/sync-ns-img2.png)
-{:.image-caption}
 *Screenshot of the certificate deployment after DNS synchronization*
 
 ## Conclusion <a name="conclusion"></a>
