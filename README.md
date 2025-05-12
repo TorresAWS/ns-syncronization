@@ -14,7 +14,7 @@ This can be fixed by hand, using the AWS GUI, by copying the list of NS from the
 
 ## Goal <a name="goal"></a>
 <div class="alert alert-block alert-info">
-Here I descrive an automatic solution that matches the NS between a hosted zone and a domain, hence achiving a smooth, automated Terraform workflow when deploying SSL/TLS certificates.
+Here, I describe an automatic solution that matches the NS between a hosted zone and a domain, hence achieving a smooth, automated Terraform workflow when deploying SSL/TLS certificates.
 </div>
 
 ## Setting up our working environment <a name="first"></a>
